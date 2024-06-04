@@ -45,5 +45,5 @@ type User {
   }
 
 
-
 `
+module.exports = typeDefs;
