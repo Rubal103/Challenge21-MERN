@@ -31,12 +31,14 @@ const SearchBooks = () => {
 
   // set up useEffect hook to save `savedBookIds` list to localStorage on component unmount
   // learn more here: https://reactjs.org/docs/hooks-effect.html#effects-with-cleanup
+
+  //using the mutation 
+  const [saveBook] = useMutation(SAVE_BOOK);
   useEffect(() => {
     return () => saveBookIds(savedBookIds);
   });
 
-  //using the mutation 
-  const [SaveBook] = useMutation(SAVE_BOOK);
+  
 
   // create method to search for books and set state on form submit
   const handleFormSubmit = async (event) => {
