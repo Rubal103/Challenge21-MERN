@@ -33,7 +33,10 @@ type User {
     image: String
     link: String
   }
-
+  type Query {
+    me: User
+  }
+  
   type Mutation {
     login(email: String!, password: String!): Auth
     
