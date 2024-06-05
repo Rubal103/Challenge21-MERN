@@ -5,14 +5,13 @@ import { Form, Button, Alert } from 'react-bootstrap';
 //removing createuser functionality imported from API 
 //import { createUser } from '../utils/API';
 
-import Auth from '../utils/auth';
+//imported ADD_USER Mutation to add user 
+import { ADD_USER } from "../utils/mutations";
 
 //imported useMutation from apollo client to help ADD_USER Mutation
 import { useMutation } from "@apollo/client";
 
-//imported ADD_USER Mutation to add user 
-import { ADD_USER } from "../utils/mutations";
-
+import Auth from '../utils/auth';
 
 const SignupForm = () => {
   // set initial form state
@@ -20,7 +19,7 @@ const SignupForm = () => {
   // set state for form validation
   const [validated] = useState(false);
   // set state for alert
-  const [showAlert, setShowAlert] = useState(false);
+  const [showAlert, setShowAlert] = useState(false);  
 
   //initiating adduser which will use mutation for adding new user
   const [addUser] = useMutation(ADD_USER);

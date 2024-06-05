@@ -1,4 +1,5 @@
-import React from react;
+import React from "react";
+
 //removing useState and useEffect as per readme requiremnet
 //import { useState, useEffect } from 'react';
 import {

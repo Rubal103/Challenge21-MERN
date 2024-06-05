@@ -6,13 +6,13 @@ import { Form, Button, Alert } from 'react-bootstrap';
 //removing loginuser imported from API
 //import { loginUser } from '../utils/API';
 
-import Auth from '../utils/auth';
-
-//import Mutation since we are no longer using API functionality for user login
 
 import { LOGIN_USER } from "../utils/mutations";
 import { useMutation } from "@apollo/client";
 
+import Auth from '../utils/auth';
+
+//import Mutation since we are no longer using API functionality for user login
 
 
 const LoginForm = () => {
