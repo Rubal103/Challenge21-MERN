@@ -47,11 +47,24 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 ```
 
 ## Technologies used
-
-
+* React
+* Apollo Server
+* Express
+* Graphql
+* Javascript
+* Apollo provider/Apollo Client
+* Mongoose
+* JSON Web Token
 
 ## Resources
+while working on the assignment and searching for further information about MERN, I came across following as used these as a reference to accomplish tasks which were asked in the readme
 
+* https://github.com/Chuca78/MERN-Book-Search-Engine/blob/main/server/config/connection.js
+* 28-Stu_Mini-Project 
+* 05-Ins_TypeDefs-Resolvers
+* 11-Ins_MERN-Setup
+* 17-Ins_useMutation
+* 19-Ins_MERN-Review
 
 ## Screenshots of the functioning app
 
@@ -78,3 +91,7 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 ![alt text](./images/image.png)
 
 ![alt text](./images/image-1.png)
+
+## Link to github repository
+https://github.com/Rubal103/Challenge21-MERN
+
